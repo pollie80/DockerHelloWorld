@@ -9,3 +9,5 @@ Containorise a Python application using Docker.
 **To run docker container:**
 
 1. `docker-compose up`
+2. or detached mode: `docker-compose up -d`
+   1. then stop using `docker-compose down`
