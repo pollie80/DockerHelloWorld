@@ -4,7 +4,7 @@ app = FastAPI()
 
 @app.get("/")
 def index():
-    return {"title": "FAST API APP HAHA"}
+    return {"title": "FAST API APP HAHA updated B)"}
 
 # endpoint for printing a message given through query string
 @app.get("/message")
